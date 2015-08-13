@@ -16,7 +16,7 @@
  */
 typedef NSString* (^IntToStringConverter)(NSUInteger paramInteger);
 @interface ViewController ()
-//@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *nameTF;
 @property (weak, nonatomic) IBOutlet UITextField *pwdTF;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
